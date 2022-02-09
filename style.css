@@ -47,15 +47,7 @@ h3{
 .main-content h3{
     font-size: 22px;
 }
-.aboutme {
-}
-.aboutme > p{
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0 95px 0 0;
-    
-}
+
 .projects {
     font-size: 14px;
     line-height: 24px;
@@ -149,6 +141,34 @@ h3{
     position: relative;
     top: 8px;
 }
+
+.certificate {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	tansition-duration: 1s;
+}
+.hillel img {
+	width: 230px;
+	height: 160px;
+	transition-duration: 0.8s;
+}
+.hillel img:hover {
+	width: 690px;
+	height: 480px;
+	transition-duration: 0.8s;
+}
+.greenforest img {
+	width: 214px;
+	height: 156px;
+	transition-duration: 0.8s;
+}
+.greenforest img:hover {
+	transition-duration: 0.8s;
+	width: 642px;
+	height: 468px;
+}
+
 
 @media (max-width: 767px){
     .container {
